@@ -23,8 +23,8 @@ struct ContentView: View {
                 ZStack {
                     Color.blue // AppBar background color
                         .ignoresSafeArea()
-                    Text("My App")
-                        .font(.largeTitle)
+                    Text("Hello Colour App")
+                        .font(.title)
                         .foregroundColor(.white)
                         .padding(.top, 40)
                 }
